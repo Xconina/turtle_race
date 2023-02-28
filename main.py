@@ -36,6 +36,7 @@ import random
 
 screen = Screen()
 screen.setup(width=500, height=400)
+screen.bgcolor("#fdd6c1")
 
 user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter a color:  ").lower()
 
